@@ -1,11 +1,25 @@
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // import org.junit.jupiter.api.Test;
-import java.util.Scanner;
 public class Main {
   public static void main(String[] args) {
-    
-    
+    int i=0;
+    int j=0;
+    int n=1;
+    char a='*';
+    for(i=0;i<6;i++){
+      for(j=0;j<n;j++){
+        System.out.print(a);
+        
+      }
+      System.out.println();
+      n++;
+    }
+
+
+
+
+
     
     // System.out.println("1.dodawanie 2.odejmowanie 3.mnozenie 4.dzielenie");
     // System.out.println("wybor:");
